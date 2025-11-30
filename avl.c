@@ -119,6 +119,8 @@ int max(int a , int b)
 {
     return (a>b)? a:b;
 }
+/* rotateRight() function is used to rotate to the right 
+we have a nodes are in the left-left condition*/
 struct TNode* rotateRight(struct TNode* unbalancedNode)
 {
     if(unbalancedNode == NULL)
@@ -357,4 +359,5 @@ int main()
 
 
     return 0;
+
 }
