@@ -30,6 +30,12 @@ int main()
         divisor=a;
 
     }
+    if(dividend ==0 || divisor==0)
+        {
+                printf("invalid values is given");
+		return -1;
+        }
+
     int res= Hcf(dividend, divisor);
     printf("hcf of %d and %d is %d", dividend, divisor, res);
 }
