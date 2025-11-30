@@ -11,6 +11,11 @@ struct Node *tail=NULL;
 struct Node* createNode(int data)
 {
     struct Node *newNode= (struct Node *)malloc(sizeof(struct Node));
+    if(newNode==NULL)
+    {
+	    printf("memory allocation is failed");
+	    return null;
+    }
     newNode->data= data;
     newNode->next= NULL;
     newNode->prev= NULL;
