@@ -362,8 +362,4 @@ int main()
 
 
     return 0;
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 }
