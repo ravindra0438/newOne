@@ -23,7 +23,7 @@ struct QNode * createQNode()
     struct QNode *q= (struct QNode *)malloc(sizeof(struct QNode));
     if(q== NULL)
     {
-	    printf("queue is null\n)";
+	    printf("queue is null\n");
         return NULL;
     }
     q->front=NULL;
