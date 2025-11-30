@@ -38,6 +38,7 @@ int main()
 
     int res= Hcf(dividend, divisor);
     printf("hcf of %d and %d is %d", dividend, divisor, res);
-	return 0
+	return 0;
 }
+
 
