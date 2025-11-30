@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<limits.h>
 int Hcf(int dividend , int divisor)
 {
    if(dividend%divisor ==0)
@@ -40,5 +41,6 @@ int main()
     printf("hcf of %d and %d is %d", dividend, divisor, res);
 	return 0;
 }
+
 
 
