@@ -92,6 +92,7 @@ struct Queue * reverseQueue(struct Queue *q)
 {
     if(q== NULL || q->front == NULL)
     {
+        printf("queue is null");
         return;
     }
     int data= front(q);
@@ -111,3 +112,4 @@ int main()
     Dequeue(q);
 
 }
+
