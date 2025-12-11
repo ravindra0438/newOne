@@ -82,7 +82,9 @@ void Dequeue(struct Queue *q)
 
 int front(struct Queue *q)
 {
-   
+   if(q==NULL)
+   {
+       printf("queue is null\n");
     return q->front->data;
 }
 
@@ -107,4 +109,5 @@ int main()
     struct Queue *qu=reverseQueue(q);
     printf("front %d ,  rear %d", q->front->data, q->rear->data);
     Dequeue(q);
+
 }
