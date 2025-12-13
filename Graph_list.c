@@ -65,6 +65,7 @@ void addEdge(struct Graph *g, int src, int dest)
 {
     if(g == NULL || g->arr == NULL)
     {
+        printf("graph is null / or graph arraylist is null\n);
         return;
     }
     struct adjListNode *newNode = createAdjListNode(dest);
@@ -93,3 +94,4 @@ int main()
 
 
 }
+
