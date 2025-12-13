@@ -29,7 +29,7 @@ void insertAtBeg(int data)
     struct Node *newNode= createNode();
     if(newNode==NULL)
     {
-        printf("memory allocation fails\n");
+        printf("memory allocation fails");
         return;
     }
     newNode->data=data;
@@ -266,4 +266,5 @@ int main()
    deleteAtAnyPosition(2);
     PrintList();    
     printReverseList();
+
 }
