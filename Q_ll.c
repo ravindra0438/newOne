@@ -46,6 +46,7 @@ void Enqueue(struct Queue *q, int data)
     struct QNode *newNode = createNode(data);
     if(newNode== NULL)
     {
+        printf("memory allocation is fails\n");
         return;
     }
     if(q->rear== NULL)
@@ -112,4 +113,5 @@ int main()
     Dequeue(q);
 
 }
+
 
